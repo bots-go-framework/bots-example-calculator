@@ -2,15 +2,15 @@ package strongo_bots_example_calculator
 
 import "github.com/strongo/bots-framework/core"
 
-var SupportedLocalesByCode5 = map[string]bots.Locale{
-	bots.LOCALE_EN_US: bots.LocaleEnUs,
-	bots.LOCALE_RU_RU: bots.LocaleRuRu,
-	bots.LOCALE_IT_IT: bots.LocaleItIt,
-	bots.LOCALE_ID_ID: bots.LocaleIdId,
-	bots.LOCALE_DE_DE: bots.LocaleDeDe,
-	bots.LOCALE_ES_ES: bots.LocaleEsEs,
-	bots.LOCALE_FR_FR: bots.LocaleFrFr,
-	bots.LOCALE_PT_PT: bots.LocalePtPt,
-	bots.LOCALE_PT_BR: bots.LocalePtBr,
-	bots.LOCALE_FA_IR: bots.LocaleFaIr,
+var SupportedLocalesByCode5 = map[string]strongo.Locale{
+	strongo.LOCALE_EN_US: strongo.LocaleEnUs,
+	strongo.LOCALE_RU_RU: strongo.LocaleRuRu,
+	strongo.LOCALE_IT_IT: strongo.LocaleItIt,
+	strongo.LOCALE_ID_ID: strongo.LocaleIdId,
+	strongo.LOCALE_DE_DE: strongo.LocaleDeDe,
+	strongo.LOCALE_ES_ES: strongo.LocaleEsEs,
+	strongo.LOCALE_FR_FR: strongo.LocaleFrFr,
+	strongo.LOCALE_PT_PT: strongo.LocalePtPt,
+	strongo.LOCALE_PT_BR: strongo.LocalePtBr,
+	strongo.LOCALE_FA_IR: strongo.LocaleFaIr,
 }
