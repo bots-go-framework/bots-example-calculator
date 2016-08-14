@@ -1,5 +1,5 @@
 application: calc-bot
-version: 1
+version: dev1.1
 runtime: go
 api_version: go1
 
